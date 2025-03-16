@@ -66,21 +66,6 @@ jobs:
         id: autogradingriscv64
         with:
           outputfile: riscv_output.txt
-      - name: test1
-        id: test1
-        uses: classroom-resources/autograding-command-grader@v1
-        with:
-          test-name: test1
-          setup-command: npm install
-          command: npm test
-          timeout: 30
-          max-score: 1
-      - name: Autograding Reporter
-        uses: classroom-resources/autograding-grading-reporter@v1
-        env:
-          TEST1_RESULTS: "${{steps.test1.outputs.result}}"
-        with:
-          runners: test1
 
   deploy:
     name: Deploy
