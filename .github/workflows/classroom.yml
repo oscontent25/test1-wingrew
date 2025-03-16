@@ -67,7 +67,7 @@ jobs:
         with:
           outputfile: riscv_output.txt
       - run: |
-          echo "${{ steps.auto-grading_riscv64.outputs.result }}"
+          echo "${{ steps.auto-grading_riscv64.outputs.points }}"
       - name: Autograding Reporter
         uses: classroom-resources/autograding-grading-reporter@v1
         env:
