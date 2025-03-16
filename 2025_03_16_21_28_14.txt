@@ -1,0 +1,608 @@
+❌ glibc busybox echo #### independent command test points 0/1
+❌ glibc busybox ash -c exit points 0/1
+❌ glibc busybox sh -c exit points 0/1
+❌ glibc busybox basename /aaa/bbb points 0/1
+❌ glibc busybox cal points 0/1
+❌ glibc busybox clear points 0/1
+❌ glibc busybox date points 0/1
+❌ glibc busybox df points 0/1
+❌ glibc busybox dirname /aaa/bbb points 0/1
+❌ glibc busybox dmesg points 0/1
+❌ glibc busybox du points 0/1
+❌ glibc busybox expr 1 + 1 points 0/1
+❌ glibc busybox false points 0/1
+❌ glibc busybox true points 0/1
+❌ glibc busybox which ls points 0/1
+❌ glibc busybox uname points 0/1
+❌ glibc busybox uptime points 0/1
+❌ glibc busybox printf abcn points 0/1
+❌ glibc busybox ps points 0/1
+❌ glibc busybox pwd points 0/1
+❌ glibc busybox free points 0/1
+❌ glibc busybox hwclock points 0/1
+❌ glibc busybox kill 10 points 0/1
+❌ glibc busybox ls points 0/1
+❌ glibc busybox sleep 1 points 0/1
+❌ glibc busybox echo #### file opration test points 0/1
+❌ glibc busybox touch test.txt points 0/1
+❌ glibc busybox echo hello world > test.txt points 0/1
+❌ glibc busybox cat test.txt points 0/1
+❌ glibc busybox cut -c 3 test.txt points 0/1
+❌ glibc busybox od test.txt points 0/1
+❌ glibc busybox head test.txt points 0/1
+❌ glibc busybox tail test.txt points 0/1
+❌ glibc busybox hexdump -C test.txt points 0/1
+❌ glibc busybox md5sum test.txt points 0/1
+❌ glibc busybox echo ccccccc >> test.txt points 0/1
+❌ glibc busybox echo bbbbbbb >> test.txt points 0/1
+❌ glibc busybox echo aaaaaaa >> test.txt points 0/1
+❌ glibc busybox echo 2222222 >> test.txt points 0/1
+❌ glibc busybox echo 1111111 >> test.txt points 0/1
+❌ glibc busybox sort test.txt | busybox uniq points 0/1
+❌ glibc busybox stat test.txt points 0/1
+❌ glibc busybox strings test.txt points 0/1
+❌ glibc busybox wc test.txt points 0/1
+❌ glibc busybox [ -f test.txt ] points 0/1
+❌ glibc busybox more test.txt points 0/1
+❌ glibc busybox rm test.txt points 0/1
+❌ glibc busybox mkdir test_dir points 0/1
+❌ glibc busybox mv test_dir test points 0/1
+❌ glibc busybox rmdir test points 0/1
+❌ glibc busybox grep hello busybox_cmd.txt points 0/1
+❌ glibc busybox cp busybox_cmd.txt busybox_cmd.bak points 0/1
+❌ glibc busybox rm busybox_cmd.bak points 0/1
+❌ glibc busybox find -name busybox_cmd.txt points 0/1
+❌ musl busybox echo #### independent command test points 0/1
+❌ musl busybox ash -c exit points 0/1
+❌ musl busybox sh -c exit points 0/1
+❌ musl busybox basename /aaa/bbb points 0/1
+❌ musl busybox cal points 0/1
+❌ musl busybox clear points 0/1
+❌ musl busybox date points 0/1
+❌ musl busybox df points 0/1
+❌ musl busybox dirname /aaa/bbb points 0/1
+❌ musl busybox dmesg points 0/1
+❌ musl busybox du points 0/1
+❌ musl busybox expr 1 + 1 points 0/1
+❌ musl busybox false points 0/1
+❌ musl busybox true points 0/1
+❌ musl busybox which ls points 0/1
+❌ musl busybox uname points 0/1
+❌ musl busybox uptime points 0/1
+❌ musl busybox printf abcn points 0/1
+❌ musl busybox ps points 0/1
+❌ musl busybox pwd points 0/1
+❌ musl busybox free points 0/1
+❌ musl busybox hwclock points 0/1
+❌ musl busybox kill 10 points 0/1
+❌ musl busybox ls points 0/1
+❌ musl busybox sleep 1 points 0/1
+❌ musl busybox echo #### file opration test points 0/1
+❌ musl busybox touch test.txt points 0/1
+❌ musl busybox echo hello world > test.txt points 0/1
+❌ musl busybox cat test.txt points 0/1
+❌ musl busybox cut -c 3 test.txt points 0/1
+❌ musl busybox od test.txt points 0/1
+❌ musl busybox head test.txt points 0/1
+❌ musl busybox tail test.txt points 0/1
+❌ musl busybox hexdump -C test.txt points 0/1
+❌ musl busybox md5sum test.txt points 0/1
+❌ musl busybox echo ccccccc >> test.txt points 0/1
+❌ musl busybox echo bbbbbbb >> test.txt points 0/1
+❌ musl busybox echo aaaaaaa >> test.txt points 0/1
+❌ musl busybox echo 2222222 >> test.txt points 0/1
+❌ musl busybox echo 1111111 >> test.txt points 0/1
+❌ musl busybox sort test.txt | ./busybox uniq points 0/1
+❌ musl busybox stat test.txt points 0/1
+❌ musl busybox strings test.txt points 0/1
+❌ musl busybox wc test.txt points 0/1
+❌ musl busybox [ -f test.txt ] points 0/1
+❌ musl busybox more test.txt points 0/1
+❌ musl busybox rm test.txt points 0/1
+❌ musl busybox mkdir test_dir points 0/1
+❌ musl busybox mv test_dir test points 0/1
+❌ musl busybox rmdir test points 0/1
+❌ musl busybox grep hello busybox_cmd.txt points 0/1
+❌ musl busybox cp busybox_cmd.txt busybox_cmd.bak points 0/1
+❌ musl busybox rm busybox_cmd.bak points 0/1
+❌ musl busybox find -name busybox_cmd.txt points 0/1
+❌ glibc iozone fwrite/fread 4 freaders (kb/sec) points 0/1
+❌ glibc iozone fwrite/fread 4 fwriters (kb/sec) points 0/1
+❌ glibc iozone pwrite/pread 4 pread readers (kb/sec) points 0/1
+❌ glibc iozone pwrite/pread 4 pwrite writers (kb/sec) points 0/1
+❌ glibc iozone pwritev/preadv 4 initial writers (kb/sec) points 0/1
+❌ glibc iozone pwritev/preadv 4 rewriters (kb/sec) points 0/1
+❌ glibc iozone random-read 4 initial writers (kb/sec) points 0/1
+❌ glibc iozone random-read 4 random readers (kb/sec) points 0/1
+❌ glibc iozone random-read 4 random writers (kb/sec) points 0/1
+❌ glibc iozone random-read 4 rewriters (kb/sec) points 0/1
+❌ glibc iozone read-backwards 4 initial writers (kb/sec) points 0/1
+❌ glibc iozone read-backwards 4 reverse readers (kb/sec) points 0/1
+❌ glibc iozone read-backwards 4 rewriters (kb/sec) points 0/1
+❌ glibc iozone stride-read 4 initial writers (kb/sec) points 0/1
+❌ glibc iozone stride-read 4 rewriters (kb/sec) points 0/1
+❌ glibc iozone stride-read 4 stride readers (kb/sec) points 0/1
+❌ glibc iozone write/read 4 initial writers (kb/sec) points 0/1
+❌ glibc iozone write/read 4 re-readers (kb/sec) points 0/1
+❌ glibc iozone write/read 4 readers (kb/sec) points 0/1
+❌ glibc iozone write/read 4 rewriters (kb/sec) points 0/1
+❌ musl iozone fwrite/fread 4 freaders (kb/sec) points 0/1
+❌ musl iozone fwrite/fread 4 fwriters (kb/sec) points 0/1
+❌ musl iozone pwrite/pread 4 pread readers (kb/sec) points 0/1
+❌ musl iozone pwrite/pread 4 pwrite writers (kb/sec) points 0/1
+❌ musl iozone pwritev/preadv 4 initial writers (kb/sec) points 0/1
+❌ musl iozone pwritev/preadv 4 rewriters (kb/sec) points 0/1
+❌ musl iozone random-read 4 initial writers (kb/sec) points 0/1
+❌ musl iozone random-read 4 random readers (kb/sec) points 0/1
+❌ musl iozone random-read 4 random writers (kb/sec) points 0/1
+❌ musl iozone random-read 4 rewriters (kb/sec) points 0/1
+❌ musl iozone read-backwards 4 initial writers (kb/sec) points 0/1
+❌ musl iozone read-backwards 4 reverse readers (kb/sec) points 0/1
+❌ musl iozone read-backwards 4 rewriters (kb/sec) points 0/1
+❌ musl iozone stride-read 4 initial writers (kb/sec) points 0/1
+❌ musl iozone stride-read 4 rewriters (kb/sec) points 0/1
+❌ musl iozone stride-read 4 stride readers (kb/sec) points 0/1
+❌ musl iozone write/read 4 initial writers (kb/sec) points 0/1
+❌ musl iozone write/read 4 re-readers (kb/sec) points 0/1
+❌ musl iozone write/read 4 readers (kb/sec) points 0/1
+❌ musl iozone write/read 4 rewriters (kb/sec) points 0/1
+❌ glibc entry-static.exe argv points 0/1
+❌ glibc entry-static.exe basename points 0/1
+❌ glibc entry-static.exe clocale_mbfuncs points 0/1
+❌ glibc entry-static.exe clock_gettime points 0/1
+❌ glibc entry-static.exe crypt points 0/1
+❌ glibc entry-static.exe dirname points 0/1
+❌ glibc entry-static.exe env points 0/1
+❌ glibc entry-static.exe fdopen points 0/1
+❌ glibc entry-static.exe fnmatch points 0/1
+❌ glibc entry-static.exe fscanf points 0/1
+❌ glibc entry-static.exe fwscanf points 0/1
+❌ glibc entry-static.exe iconv_open points 0/1
+❌ glibc entry-static.exe inet_pton points 0/1
+❌ glibc entry-static.exe mbc points 0/1
+❌ glibc entry-static.exe memstream points 0/1
+❌ glibc entry-static.exe pthread_cancel_points points 0/1
+❌ glibc entry-static.exe pthread_cancel points 0/1
+❌ glibc entry-static.exe pthread_cond points 0/1
+❌ glibc entry-static.exe pthread_tsd points 0/1
+❌ glibc entry-static.exe qsort points 0/1
+❌ glibc entry-static.exe random points 0/1
+❌ glibc entry-static.exe search_hsearch points 0/1
+❌ glibc entry-static.exe search_insque points 0/1
+❌ glibc entry-static.exe search_lsearch points 0/1
+❌ glibc entry-static.exe search_tsearch points 0/1
+❌ glibc entry-static.exe setjmp points 0/1
+❌ glibc entry-static.exe snprintf points 0/1
+❌ glibc entry-static.exe socket points 0/1
+❌ glibc entry-static.exe sscanf points 0/1
+❌ glibc entry-static.exe sscanf_long points 0/1
+❌ glibc entry-static.exe stat points 0/1
+❌ glibc entry-static.exe strftime points 0/1
+❌ glibc entry-static.exe string points 0/1
+❌ glibc entry-static.exe string_memcpy points 0/1
+❌ glibc entry-static.exe string_memmem points 0/1
+❌ glibc entry-static.exe string_memset points 0/1
+❌ glibc entry-static.exe string_strchr points 0/1
+❌ glibc entry-static.exe string_strcspn points 0/1
+❌ glibc entry-static.exe string_strstr points 0/1
+❌ glibc entry-static.exe strptime points 0/1
+❌ glibc entry-static.exe strtod points 0/1
+❌ glibc entry-static.exe strtod_simple points 0/1
+❌ glibc entry-static.exe strtof points 0/1
+❌ glibc entry-static.exe strtol points 0/1
+❌ glibc entry-static.exe strtold points 0/1
+❌ glibc entry-static.exe swprintf points 0/1
+❌ glibc entry-static.exe tgmath points 0/1
+❌ glibc entry-static.exe time points 0/1
+❌ glibc entry-static.exe tls_align points 0/1
+❌ glibc entry-static.exe udiv points 0/1
+❌ glibc entry-static.exe ungetc points 0/1
+❌ glibc entry-static.exe utime points 0/1
+❌ glibc entry-static.exe wcsstr points 0/1
+❌ glibc entry-static.exe wcstol points 0/1
+❌ glibc entry-static.exe pleval points 0/1
+❌ glibc entry-static.exe daemon_failure points 0/1
+❌ glibc entry-static.exe dn_expand_empty points 0/1
+❌ glibc entry-static.exe dn_expand_ptr_0 points 0/1
+❌ glibc entry-static.exe fflush_exit points 0/1
+❌ glibc entry-static.exe fgets_eof points 0/1
+❌ glibc entry-static.exe fgetwc_buffering points 0/1
+❌ glibc entry-static.exe fpclassify_invalid_ld80 points 0/1
+❌ glibc entry-static.exe ftello_unflushed_append points 0/1
+❌ glibc entry-static.exe getpwnam_r_crash points 0/1
+❌ glibc entry-static.exe getpwnam_r_errno points 0/1
+❌ glibc entry-static.exe iconv_roundtrips points 0/1
+❌ glibc entry-static.exe inet_ntop_v4mapped points 0/1
+❌ glibc entry-static.exe inet_pton_empty_last_field points 0/1
+❌ glibc entry-static.exe iswspace_null points 0/1
+❌ glibc entry-static.exe lrand48_signextend points 0/1
+❌ glibc entry-static.exe lseek_large points 0/1
+❌ glibc entry-static.exe malloc_0 points 0/1
+❌ glibc entry-static.exe mbsrtowcs_overflow points 0/1
+❌ glibc entry-static.exe memmem_oob_read points 0/1
+❌ glibc entry-static.exe memmem_oob points 0/1
+❌ glibc entry-static.exe mkdtemp_failure points 0/1
+❌ glibc entry-static.exe mkstemp_failure points 0/1
+❌ glibc entry-static.exe printf_1e9_oob points 0/1
+❌ glibc entry-static.exe printf_fmt_g_round points 0/1
+❌ glibc entry-static.exe printf_fmt_g_zeros points 0/1
+❌ glibc entry-static.exe printf_fmt_n points 0/1
+❌ glibc entry-static.exe pthread_robust_detach points 0/1
+❌ glibc entry-static.exe pthread_cancel_sem_wait points 0/1
+❌ glibc entry-static.exe pthread_cond_smasher points 0/1
+❌ glibc entry-static.exe pthread_condattr_setclock points 0/1
+❌ glibc entry-static.exe pthread_exit_cancel points 0/1
+❌ glibc entry-static.exe pthread_once_deadlock points 0/1
+❌ glibc entry-static.exe pthread_rwlock_ebusy points 0/1
+❌ glibc entry-static.exe putenv_doublefree points 0/1
+❌ glibc entry-static.exe regex_backref_0 points 0/1
+❌ glibc entry-static.exe regex_bracket_icase points 0/1
+❌ glibc entry-static.exe regex_ere_backref points 0/1
+❌ glibc entry-static.exe regex_escaped_high_byte points 0/1
+❌ glibc entry-static.exe regex_negated_range points 0/1
+❌ glibc entry-static.exe regexec_nosub points 0/1
+❌ glibc entry-static.exe rewind_clear_error points 0/1
+❌ glibc entry-static.exe rlimit_open_files points 0/1
+❌ glibc entry-static.exe scanf_bytes_consumed points 0/1
+❌ glibc entry-static.exe scanf_match_literal_eof points 0/1
+❌ glibc entry-static.exe scanf_nullbyte_char points 0/1
+❌ glibc entry-static.exe setvbuf_unget points 0/1
+❌ glibc entry-static.exe sigprocmask_internal points 0/1
+❌ glibc entry-static.exe sscanf_eof points 0/1
+❌ glibc entry-static.exe statvfs points 0/1
+❌ glibc entry-static.exe strverscmp points 0/1
+❌ glibc entry-static.exe syscall_sign_extend points 0/1
+❌ glibc entry-static.exe uselocale_0 points 0/1
+❌ glibc entry-static.exe wcsncpy_read_overflow points 0/1
+❌ glibc entry-static.exe wcsstr_false_negative points 0/1
+❌ glibc entry-dynamic.exe argv points 0/1
+❌ glibc entry-dynamic.exe basename points 0/1
+❌ glibc entry-dynamic.exe clocale_mbfuncs points 0/1
+❌ glibc entry-dynamic.exe clock_gettime points 0/1
+❌ glibc entry-dynamic.exe crypt points 0/1
+❌ glibc entry-dynamic.exe dirname points 0/1
+❌ glibc entry-dynamic.exe dlopen points 0/1
+❌ glibc entry-dynamic.exe env points 0/1
+❌ glibc entry-dynamic.exe fdopen points 0/1
+❌ glibc entry-dynamic.exe fnmatch points 0/1
+❌ glibc entry-dynamic.exe fscanf points 0/1
+❌ glibc entry-dynamic.exe fwscanf points 0/1
+❌ glibc entry-dynamic.exe iconv_open points 0/1
+❌ glibc entry-dynamic.exe inet_pton points 0/1
+❌ glibc entry-dynamic.exe mbc points 0/1
+❌ glibc entry-dynamic.exe memstream points 0/1
+❌ glibc entry-dynamic.exe pthread_cancel_points points 0/1
+❌ glibc entry-dynamic.exe pthread_cancel points 0/1
+❌ glibc entry-dynamic.exe pthread_cond points 0/1
+❌ glibc entry-dynamic.exe pthread_tsd points 0/1
+❌ glibc entry-dynamic.exe qsort points 0/1
+❌ glibc entry-dynamic.exe random points 0/1
+❌ glibc entry-dynamic.exe search_hsearch points 0/1
+❌ glibc entry-dynamic.exe search_insque points 0/1
+❌ glibc entry-dynamic.exe search_lsearch points 0/1
+❌ glibc entry-dynamic.exe search_tsearch points 0/1
+❌ glibc entry-dynamic.exe sem_init points 0/1
+❌ glibc entry-dynamic.exe setjmp points 0/1
+❌ glibc entry-dynamic.exe snprintf points 0/1
+❌ glibc entry-dynamic.exe socket points 0/1
+❌ glibc entry-dynamic.exe sscanf points 0/1
+❌ glibc entry-dynamic.exe sscanf_long points 0/1
+❌ glibc entry-dynamic.exe stat points 0/1
+❌ glibc entry-dynamic.exe strftime points 0/1
+❌ glibc entry-dynamic.exe string points 0/1
+❌ glibc entry-dynamic.exe string_memcpy points 0/1
+❌ glibc entry-dynamic.exe string_memmem points 0/1
+❌ glibc entry-dynamic.exe string_memset points 0/1
+❌ glibc entry-dynamic.exe string_strchr points 0/1
+❌ glibc entry-dynamic.exe string_strcspn points 0/1
+❌ glibc entry-dynamic.exe string_strstr points 0/1
+❌ glibc entry-dynamic.exe strptime points 0/1
+❌ glibc entry-dynamic.exe strtod points 0/1
+❌ glibc entry-dynamic.exe strtod_simple points 0/1
+❌ glibc entry-dynamic.exe strtof points 0/1
+❌ glibc entry-dynamic.exe strtol points 0/1
+❌ glibc entry-dynamic.exe strtold points 0/1
+❌ glibc entry-dynamic.exe swprintf points 0/1
+❌ glibc entry-dynamic.exe tgmath points 0/1
+❌ glibc entry-dynamic.exe time points 0/1
+❌ glibc entry-dynamic.exe tls_init points 0/1
+❌ glibc entry-dynamic.exe tls_local_exec points 0/1
+❌ glibc entry-dynamic.exe udiv points 0/1
+❌ glibc entry-dynamic.exe ungetc points 0/1
+❌ glibc entry-dynamic.exe utime points 0/1
+❌ glibc entry-dynamic.exe wcsstr points 0/1
+❌ glibc entry-dynamic.exe wcstol points 0/1
+❌ glibc entry-dynamic.exe daemon_failure points 0/1
+❌ glibc entry-dynamic.exe dn_expand_empty points 0/1
+❌ glibc entry-dynamic.exe dn_expand_ptr_0 points 0/1
+❌ glibc entry-dynamic.exe fflush_exit points 0/1
+❌ glibc entry-dynamic.exe fgets_eof points 0/1
+❌ glibc entry-dynamic.exe fgetwc_buffering points 0/1
+❌ glibc entry-dynamic.exe fpclassify_invalid_ld80 points 0/1
+❌ glibc entry-dynamic.exe ftello_unflushed_append points 0/1
+❌ glibc entry-dynamic.exe getpwnam_r_crash points 0/1
+❌ glibc entry-dynamic.exe getpwnam_r_errno points 0/1
+❌ glibc entry-dynamic.exe iconv_roundtrips points 0/1
+❌ glibc entry-dynamic.exe inet_ntop_v4mapped points 0/1
+❌ glibc entry-dynamic.exe inet_pton_empty_last_field points 0/1
+❌ glibc entry-dynamic.exe iswspace_null points 0/1
+❌ glibc entry-dynamic.exe lrand48_signextend points 0/1
+❌ glibc entry-dynamic.exe lseek_large points 0/1
+❌ glibc entry-dynamic.exe malloc_0 points 0/1
+❌ glibc entry-dynamic.exe mbsrtowcs_overflow points 0/1
+❌ glibc entry-dynamic.exe memmem_oob_read points 0/1
+❌ glibc entry-dynamic.exe memmem_oob points 0/1
+❌ glibc entry-dynamic.exe mkdtemp_failure points 0/1
+❌ glibc entry-dynamic.exe mkstemp_failure points 0/1
+❌ glibc entry-dynamic.exe printf_1e9_oob points 0/1
+❌ glibc entry-dynamic.exe printf_fmt_g_round points 0/1
+❌ glibc entry-dynamic.exe printf_fmt_g_zeros points 0/1
+❌ glibc entry-dynamic.exe printf_fmt_n points 0/1
+❌ glibc entry-dynamic.exe pthread_robust_detach points 0/1
+❌ glibc entry-dynamic.exe pthread_cond_smasher points 0/1
+❌ glibc entry-dynamic.exe pthread_condattr_setclock points 0/1
+❌ glibc entry-dynamic.exe pthread_exit_cancel points 0/1
+❌ glibc entry-dynamic.exe pthread_once_deadlock points 0/1
+❌ glibc entry-dynamic.exe pthread_rwlock_ebusy points 0/1
+❌ glibc entry-dynamic.exe putenv_doublefree points 0/1
+❌ glibc entry-dynamic.exe regex_backref_0 points 0/1
+❌ glibc entry-dynamic.exe regex_bracket_icase points 0/1
+❌ glibc entry-dynamic.exe regex_ere_backref points 0/1
+❌ glibc entry-dynamic.exe regex_escaped_high_byte points 0/1
+❌ glibc entry-dynamic.exe regex_negated_range points 0/1
+❌ glibc entry-dynamic.exe regexec_nosub points 0/1
+❌ glibc entry-dynamic.exe rewind_clear_error points 0/1
+❌ glibc entry-dynamic.exe rlimit_open_files points 0/1
+❌ glibc entry-dynamic.exe scanf_bytes_consumed points 0/1
+❌ glibc entry-dynamic.exe scanf_match_literal_eof points 0/1
+❌ glibc entry-dynamic.exe scanf_nullbyte_char points 0/1
+❌ glibc entry-dynamic.exe setvbuf_unget points 0/1
+❌ glibc entry-dynamic.exe sigprocmask_internal points 0/1
+❌ glibc entry-dynamic.exe sscanf_eof points 0/1
+❌ glibc entry-dynamic.exe statvfs points 0/1
+❌ glibc entry-dynamic.exe strverscmp points 0/1
+❌ glibc entry-dynamic.exe syscall_sign_extend points 0/1
+❌ glibc entry-dynamic.exe tls_get_new_dtv points 0/1
+❌ glibc entry-dynamic.exe uselocale_0 points 0/1
+❌ glibc entry-dynamic.exe wcsncpy_read_overflow points 0/1
+❌ glibc entry-dynamic.exe wcsstr_false_negative points 0/1
+❌ musl entry-static.exe argv points 0/1
+❌ musl entry-static.exe basename points 0/1
+❌ musl entry-static.exe clocale_mbfuncs points 0/1
+❌ musl entry-static.exe clock_gettime points 0/1
+❌ musl entry-static.exe crypt points 0/1
+❌ musl entry-static.exe dirname points 0/1
+❌ musl entry-static.exe env points 0/1
+❌ musl entry-static.exe fdopen points 0/1
+❌ musl entry-static.exe fnmatch points 0/1
+❌ musl entry-static.exe fscanf points 0/1
+❌ musl entry-static.exe fwscanf points 0/1
+❌ musl entry-static.exe iconv_open points 0/1
+❌ musl entry-static.exe inet_pton points 0/1
+❌ musl entry-static.exe mbc points 0/1
+❌ musl entry-static.exe memstream points 0/1
+❌ musl entry-static.exe pthread_cancel_points points 0/1
+❌ musl entry-static.exe pthread_cancel points 0/1
+❌ musl entry-static.exe pthread_cond points 0/1
+❌ musl entry-static.exe pthread_tsd points 0/1
+❌ musl entry-static.exe qsort points 0/1
+❌ musl entry-static.exe random points 0/1
+❌ musl entry-static.exe search_hsearch points 0/1
+❌ musl entry-static.exe search_insque points 0/1
+❌ musl entry-static.exe search_lsearch points 0/1
+❌ musl entry-static.exe search_tsearch points 0/1
+❌ musl entry-static.exe setjmp points 0/1
+❌ musl entry-static.exe snprintf points 0/1
+❌ musl entry-static.exe socket points 0/1
+❌ musl entry-static.exe sscanf points 0/1
+❌ musl entry-static.exe sscanf_long points 0/1
+❌ musl entry-static.exe stat points 0/1
+❌ musl entry-static.exe strftime points 0/1
+❌ musl entry-static.exe string points 0/1
+❌ musl entry-static.exe string_memcpy points 0/1
+❌ musl entry-static.exe string_memmem points 0/1
+❌ musl entry-static.exe string_memset points 0/1
+❌ musl entry-static.exe string_strchr points 0/1
+❌ musl entry-static.exe string_strcspn points 0/1
+❌ musl entry-static.exe string_strstr points 0/1
+❌ musl entry-static.exe strptime points 0/1
+❌ musl entry-static.exe strtod points 0/1
+❌ musl entry-static.exe strtod_simple points 0/1
+❌ musl entry-static.exe strtof points 0/1
+❌ musl entry-static.exe strtol points 0/1
+❌ musl entry-static.exe strtold points 0/1
+❌ musl entry-static.exe swprintf points 0/1
+❌ musl entry-static.exe tgmath points 0/1
+❌ musl entry-static.exe time points 0/1
+❌ musl entry-static.exe tls_align points 0/1
+❌ musl entry-static.exe udiv points 0/1
+❌ musl entry-static.exe ungetc points 0/1
+❌ musl entry-static.exe utime points 0/1
+❌ musl entry-static.exe wcsstr points 0/1
+❌ musl entry-static.exe wcstol points 0/1
+❌ musl entry-static.exe pleval points 0/1
+❌ musl entry-static.exe daemon_failure points 0/1
+❌ musl entry-static.exe dn_expand_empty points 0/1
+❌ musl entry-static.exe dn_expand_ptr_0 points 0/1
+❌ musl entry-static.exe fflush_exit points 0/1
+❌ musl entry-static.exe fgets_eof points 0/1
+❌ musl entry-static.exe fgetwc_buffering points 0/1
+❌ musl entry-static.exe fpclassify_invalid_ld80 points 0/1
+❌ musl entry-static.exe ftello_unflushed_append points 0/1
+❌ musl entry-static.exe getpwnam_r_crash points 0/1
+❌ musl entry-static.exe getpwnam_r_errno points 0/1
+❌ musl entry-static.exe iconv_roundtrips points 0/1
+❌ musl entry-static.exe inet_ntop_v4mapped points 0/1
+❌ musl entry-static.exe inet_pton_empty_last_field points 0/1
+❌ musl entry-static.exe iswspace_null points 0/1
+❌ musl entry-static.exe lrand48_signextend points 0/1
+❌ musl entry-static.exe lseek_large points 0/1
+❌ musl entry-static.exe malloc_0 points 0/1
+❌ musl entry-static.exe mbsrtowcs_overflow points 0/1
+❌ musl entry-static.exe memmem_oob_read points 0/1
+❌ musl entry-static.exe memmem_oob points 0/1
+❌ musl entry-static.exe mkdtemp_failure points 0/1
+❌ musl entry-static.exe mkstemp_failure points 0/1
+❌ musl entry-static.exe printf_1e9_oob points 0/1
+❌ musl entry-static.exe printf_fmt_g_round points 0/1
+❌ musl entry-static.exe printf_fmt_g_zeros points 0/1
+❌ musl entry-static.exe printf_fmt_n points 0/1
+❌ musl entry-static.exe pthread_robust_detach points 0/1
+❌ musl entry-static.exe pthread_cancel_sem_wait points 0/1
+❌ musl entry-static.exe pthread_cond_smasher points 0/1
+❌ musl entry-static.exe pthread_condattr_setclock points 0/1
+❌ musl entry-static.exe pthread_exit_cancel points 0/1
+❌ musl entry-static.exe pthread_once_deadlock points 0/1
+❌ musl entry-static.exe pthread_rwlock_ebusy points 0/1
+❌ musl entry-static.exe putenv_doublefree points 0/1
+❌ musl entry-static.exe regex_backref_0 points 0/1
+❌ musl entry-static.exe regex_bracket_icase points 0/1
+❌ musl entry-static.exe regex_ere_backref points 0/1
+❌ musl entry-static.exe regex_escaped_high_byte points 0/1
+❌ musl entry-static.exe regex_negated_range points 0/1
+❌ musl entry-static.exe regexec_nosub points 0/1
+❌ musl entry-static.exe rewind_clear_error points 0/1
+❌ musl entry-static.exe rlimit_open_files points 0/1
+❌ musl entry-static.exe scanf_bytes_consumed points 0/1
+❌ musl entry-static.exe scanf_match_literal_eof points 0/1
+❌ musl entry-static.exe scanf_nullbyte_char points 0/1
+❌ musl entry-static.exe setvbuf_unget points 0/1
+❌ musl entry-static.exe sigprocmask_internal points 0/1
+❌ musl entry-static.exe sscanf_eof points 0/1
+❌ musl entry-static.exe statvfs points 0/1
+❌ musl entry-static.exe strverscmp points 0/1
+❌ musl entry-static.exe syscall_sign_extend points 0/1
+❌ musl entry-static.exe uselocale_0 points 0/1
+❌ musl entry-static.exe wcsncpy_read_overflow points 0/1
+❌ musl entry-static.exe wcsstr_false_negative points 0/1
+❌ musl entry-dynamic.exe argv points 0/1
+❌ musl entry-dynamic.exe basename points 0/1
+❌ musl entry-dynamic.exe clocale_mbfuncs points 0/1
+❌ musl entry-dynamic.exe clock_gettime points 0/1
+❌ musl entry-dynamic.exe crypt points 0/1
+❌ musl entry-dynamic.exe dirname points 0/1
+❌ musl entry-dynamic.exe dlopen points 0/1
+❌ musl entry-dynamic.exe env points 0/1
+❌ musl entry-dynamic.exe fdopen points 0/1
+❌ musl entry-dynamic.exe fnmatch points 0/1
+❌ musl entry-dynamic.exe fscanf points 0/1
+❌ musl entry-dynamic.exe fwscanf points 0/1
+❌ musl entry-dynamic.exe iconv_open points 0/1
+❌ musl entry-dynamic.exe inet_pton points 0/1
+❌ musl entry-dynamic.exe mbc points 0/1
+❌ musl entry-dynamic.exe memstream points 0/1
+❌ musl entry-dynamic.exe pthread_cancel_points points 0/1
+❌ musl entry-dynamic.exe pthread_cancel points 0/1
+❌ musl entry-dynamic.exe pthread_cond points 0/1
+❌ musl entry-dynamic.exe pthread_tsd points 0/1
+❌ musl entry-dynamic.exe qsort points 0/1
+❌ musl entry-dynamic.exe random points 0/1
+❌ musl entry-dynamic.exe search_hsearch points 0/1
+❌ musl entry-dynamic.exe search_insque points 0/1
+❌ musl entry-dynamic.exe search_lsearch points 0/1
+❌ musl entry-dynamic.exe search_tsearch points 0/1
+❌ musl entry-dynamic.exe sem_init points 0/1
+❌ musl entry-dynamic.exe setjmp points 0/1
+❌ musl entry-dynamic.exe snprintf points 0/1
+❌ musl entry-dynamic.exe socket points 0/1
+❌ musl entry-dynamic.exe sscanf points 0/1
+❌ musl entry-dynamic.exe sscanf_long points 0/1
+❌ musl entry-dynamic.exe stat points 0/1
+❌ musl entry-dynamic.exe strftime points 0/1
+❌ musl entry-dynamic.exe string points 0/1
+❌ musl entry-dynamic.exe string_memcpy points 0/1
+❌ musl entry-dynamic.exe string_memmem points 0/1
+❌ musl entry-dynamic.exe string_memset points 0/1
+❌ musl entry-dynamic.exe string_strchr points 0/1
+❌ musl entry-dynamic.exe string_strcspn points 0/1
+❌ musl entry-dynamic.exe string_strstr points 0/1
+❌ musl entry-dynamic.exe strptime points 0/1
+❌ musl entry-dynamic.exe strtod points 0/1
+❌ musl entry-dynamic.exe strtod_simple points 0/1
+❌ musl entry-dynamic.exe strtof points 0/1
+❌ musl entry-dynamic.exe strtol points 0/1
+❌ musl entry-dynamic.exe strtold points 0/1
+❌ musl entry-dynamic.exe swprintf points 0/1
+❌ musl entry-dynamic.exe tgmath points 0/1
+❌ musl entry-dynamic.exe time points 0/1
+❌ musl entry-dynamic.exe tls_init points 0/1
+❌ musl entry-dynamic.exe tls_local_exec points 0/1
+❌ musl entry-dynamic.exe udiv points 0/1
+❌ musl entry-dynamic.exe ungetc points 0/1
+❌ musl entry-dynamic.exe utime points 0/1
+❌ musl entry-dynamic.exe wcsstr points 0/1
+❌ musl entry-dynamic.exe wcstol points 0/1
+❌ musl entry-dynamic.exe daemon_failure points 0/1
+❌ musl entry-dynamic.exe dn_expand_empty points 0/1
+❌ musl entry-dynamic.exe dn_expand_ptr_0 points 0/1
+❌ musl entry-dynamic.exe fflush_exit points 0/1
+❌ musl entry-dynamic.exe fgets_eof points 0/1
+❌ musl entry-dynamic.exe fgetwc_buffering points 0/1
+❌ musl entry-dynamic.exe fpclassify_invalid_ld80 points 0/1
+❌ musl entry-dynamic.exe ftello_unflushed_append points 0/1
+❌ musl entry-dynamic.exe getpwnam_r_crash points 0/1
+❌ musl entry-dynamic.exe getpwnam_r_errno points 0/1
+❌ musl entry-dynamic.exe iconv_roundtrips points 0/1
+❌ musl entry-dynamic.exe inet_ntop_v4mapped points 0/1
+❌ musl entry-dynamic.exe inet_pton_empty_last_field points 0/1
+❌ musl entry-dynamic.exe iswspace_null points 0/1
+❌ musl entry-dynamic.exe lrand48_signextend points 0/1
+❌ musl entry-dynamic.exe lseek_large points 0/1
+❌ musl entry-dynamic.exe malloc_0 points 0/1
+❌ musl entry-dynamic.exe mbsrtowcs_overflow points 0/1
+❌ musl entry-dynamic.exe memmem_oob_read points 0/1
+❌ musl entry-dynamic.exe memmem_oob points 0/1
+❌ musl entry-dynamic.exe mkdtemp_failure points 0/1
+❌ musl entry-dynamic.exe mkstemp_failure points 0/1
+❌ musl entry-dynamic.exe printf_1e9_oob points 0/1
+❌ musl entry-dynamic.exe printf_fmt_g_round points 0/1
+❌ musl entry-dynamic.exe printf_fmt_g_zeros points 0/1
+❌ musl entry-dynamic.exe printf_fmt_n points 0/1
+❌ musl entry-dynamic.exe pthread_robust_detach points 0/1
+❌ musl entry-dynamic.exe pthread_cond_smasher points 0/1
+❌ musl entry-dynamic.exe pthread_condattr_setclock points 0/1
+❌ musl entry-dynamic.exe pthread_exit_cancel points 0/1
+❌ musl entry-dynamic.exe pthread_once_deadlock points 0/1
+❌ musl entry-dynamic.exe pthread_rwlock_ebusy points 0/1
+❌ musl entry-dynamic.exe putenv_doublefree points 0/1
+❌ musl entry-dynamic.exe regex_backref_0 points 0/1
+❌ musl entry-dynamic.exe regex_bracket_icase points 0/1
+❌ musl entry-dynamic.exe regex_ere_backref points 0/1
+❌ musl entry-dynamic.exe regex_escaped_high_byte points 0/1
+❌ musl entry-dynamic.exe regex_negated_range points 0/1
+❌ musl entry-dynamic.exe regexec_nosub points 0/1
+❌ musl entry-dynamic.exe rewind_clear_error points 0/1
+❌ musl entry-dynamic.exe rlimit_open_files points 0/1
+❌ musl entry-dynamic.exe scanf_bytes_consumed points 0/1
+❌ musl entry-dynamic.exe scanf_match_literal_eof points 0/1
+❌ musl entry-dynamic.exe scanf_nullbyte_char points 0/1
+❌ musl entry-dynamic.exe setvbuf_unget points 0/1
+❌ musl entry-dynamic.exe sigprocmask_internal points 0/1
+❌ musl entry-dynamic.exe sscanf_eof points 0/1
+❌ musl entry-dynamic.exe statvfs points 0/1
+❌ musl entry-dynamic.exe strverscmp points 0/1
+❌ musl entry-dynamic.exe syscall_sign_extend points 0/1
+❌ musl entry-dynamic.exe tls_get_new_dtv points 0/1
+❌ musl entry-dynamic.exe uselocale_0 points 0/1
+❌ musl entry-dynamic.exe wcsncpy_read_overflow points 0/1
+❌ musl entry-dynamic.exe wcsstr_false_negative points 0/1
+❌ glibc lua date.lua points 0/1
+❌ glibc lua file_io.lua points 0/1
+❌ glibc lua max_min.lua points 0/1
+❌ glibc lua random.lua points 0/1
+❌ glibc lua remove.lua points 0/1
+❌ glibc lua round_num.lua points 0/1
+❌ glibc lua sin30.lua points 0/1
+❌ glibc lua sort.lua points 0/1
+❌ glibc lua strings.lua points 0/1
+❌ musl lua date.lua points 0/1
+❌ musl lua file_io.lua points 0/1
+❌ musl lua max_min.lua points 0/1
+❌ musl lua random.lua points 0/1
+❌ musl lua remove.lua points 0/1
+❌ musl lua round_num.lua points 0/1
+❌ musl lua sin30.lua points 0/1
+❌ musl lua sort.lua points 0/1
+❌ musl lua strings.lua points 0/1
+
+Points: 0/606
