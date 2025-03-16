@@ -16,7 +16,6 @@ cd .arceos
 docker build -t starry -f Dockerfile .
 ```
 
-
 Create a container and build/run app:
 ```bash
 # back to the root directory of the project
