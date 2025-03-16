@@ -26,8 +26,8 @@ jobs:
     env:
       qemu-version: 9.2.1
     outputs:
-      details: ${{ steps.auto-grading_riscv64.outputs.details }}
-      points: ${{ steps.auto-grading_riscv64.outputs.points }}
+      details: ${{ steps.auto-grading-riscv64.outputs.details }}
+      points: ${{ steps.auto-grading-riscv64.outputs.points }}
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
@@ -63,17 +63,17 @@ jobs:
         run: |
           git clone ${{ env.SCRIPT_REPO }} .github/classroom
       - uses: yfblock/os-autograding@master
-        id: auto-grading_riscv64
+        id: auto-grading-riscv64
         with:
           outputfile: riscv_output.txt
       - run: |
-          echo "${{ steps.auto-grading_riscv64.outputs.points }}"
+          echo "${{ steps.auto-grading-riscv64.outputs.points }}"
       - name: Autograding Reporter
         uses: classroom-resources/autograding-grading-reporter@v1
         env:
-          AUTO-GRADING_RISCV64_RESULTS: "${{ steps.auto-grading_riscv64.outputs.points }}"
+          AUTO-GRADING-RISCV64_RESULTS: "${{ steps.auto-grading-riscv64.outputs.points }}"
         with:
-          runners: auto-grading_riscv64
+          runners: auto-grading-riscv64
 
   deploy:
     name: Deploy
