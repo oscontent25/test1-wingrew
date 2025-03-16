@@ -74,6 +74,7 @@ jobs:
           setup-command: npm install
           command: npm test
           timeout: 30
+          max-score: 1
       - name: Autograding Reporter
         uses: classroom-resources/autograding-grading-reporter@v1
         env:
