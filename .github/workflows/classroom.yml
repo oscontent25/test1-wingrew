@@ -72,8 +72,6 @@ jobs:
         uses: classroom-resources/autograding-grading-reporter@v1
         env:
           TEST1_RESULTS: "${{steps.auto-grading_riscv64.outputs.result}}"
-        with:
-          runners: auto-grading_riscv64
 
   deploy:
     name: Deploy
