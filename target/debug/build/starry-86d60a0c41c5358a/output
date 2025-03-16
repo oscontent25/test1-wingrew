@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=./apps/c/src
+cargo:rerun-if-changed=./apps/rust/src
+cargo:rerun-if-changed=.makeargs

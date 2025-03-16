@@ -1,0 +1,14 @@
+/home/wingrew/test1-wingrew/target/debug/deps/libaxdriver-0e2ac53e1c705622.rmeta: /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/lib.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/macros.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/bus/mod.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/bus/pci.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/drivers.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/dummy.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/structs/mod.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/structs/static.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/virtio.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/prelude.rs
+
+/home/wingrew/test1-wingrew/target/debug/deps/axdriver-0e2ac53e1c705622.d: /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/lib.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/macros.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/bus/mod.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/bus/pci.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/drivers.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/dummy.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/structs/mod.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/structs/static.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/virtio.rs /root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/prelude.rs
+
+/root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/lib.rs:
+/root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/macros.rs:
+/root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/bus/mod.rs:
+/root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/bus/pci.rs:
+/root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/drivers.rs:
+/root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/dummy.rs:
+/root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/structs/mod.rs:
+/root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/structs/static.rs:
+/root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/virtio.rs:
+/root/.cargo/git/checkouts/arceos-3bdd51727ca45c19/3b33f3a/modules/axdriver/src/prelude.rs:

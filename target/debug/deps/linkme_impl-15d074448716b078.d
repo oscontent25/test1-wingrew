@@ -1,0 +1,12 @@
+/home/wingrew/test1-wingrew/target/debug/deps/liblinkme_impl-15d074448716b078.so: /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/args.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/attr.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/declaration.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/element.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/hash.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/linker.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/ty.rs
+
+/home/wingrew/test1-wingrew/target/debug/deps/linkme_impl-15d074448716b078.d: /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/args.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/attr.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/declaration.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/element.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/hash.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/linker.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/ty.rs
+
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/lib.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/args.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/attr.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/declaration.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/element.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/hash.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/linker.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/linkme-impl-0.3.32/src/ty.rs:

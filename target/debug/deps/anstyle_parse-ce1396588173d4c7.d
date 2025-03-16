@@ -1,0 +1,11 @@
+/home/wingrew/test1-wingrew/target/debug/deps/libanstyle_parse-ce1396588173d4c7.rmeta: /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/params.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/state/mod.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/state/definitions.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/state/table.rs
+
+/home/wingrew/test1-wingrew/target/debug/deps/libanstyle_parse-ce1396588173d4c7.rlib: /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/params.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/state/mod.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/state/definitions.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/state/table.rs
+
+/home/wingrew/test1-wingrew/target/debug/deps/anstyle_parse-ce1396588173d4c7.d: /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/params.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/state/mod.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/state/definitions.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/state/table.rs
+
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/lib.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/params.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/state/mod.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/state/definitions.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/anstyle-parse-0.2.6/src/state/table.rs:

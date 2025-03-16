@@ -1,0 +1,2 @@
+cargo:rustc-link-arg-tests=-no-pie
+cargo:rustc-link-arg-tests=-T/root/.cargo/registry/src/mirrors.ustc.edu.cn-38d0e5eb5da2abae/percpu-0.2.0/test_percpu.x
