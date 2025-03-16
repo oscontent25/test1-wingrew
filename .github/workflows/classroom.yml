@@ -71,7 +71,7 @@ jobs:
       - name: Autograding Reporter
         uses: classroom-resources/autograding-grading-reporter@v1
         env:
-          AUTO-GRADING_RISCV64: "${{ steps.auto-grading_riscv64.outputs.points }}"
+          AUTO-GRADING_RISCV64_RESULTS: "${{ steps.auto-grading_riscv64.outputs.points }}"
         with:
           runners: auto-grading_riscv64
 
