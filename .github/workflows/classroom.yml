@@ -73,7 +73,7 @@ jobs:
         env:
           AUTO-GRADING-RISCV64_RESULTS: "${{ steps.auto-grading-riscv64.outputs.points }}"
         with:
-          runners: auto-grading-riscv64
+          runners: test1
 
   deploy:
     name: Deploy
