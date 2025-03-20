@@ -38,7 +38,6 @@ cargo install cargo-binutils axconfig-gen
 
 sudo apt install libclang-dev cmake dosfstools build-essential
 ```
-
 Download & install [musl](https://musl.cc) toolchains:
 
 ```bash
