@@ -11,7 +11,6 @@ A monolithic kernel based on [ArceOS](https://github.com/arceos-org/arceos).
 Install [Docker](https://www.docker.com/) in your system.
 Then build all dependencies through provided dockerfile:
 
-
 ```bash
 ./scripts/get_deps.sh
 cd .arceos
