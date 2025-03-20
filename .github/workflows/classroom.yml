@@ -76,7 +76,7 @@ jobs:
       - name: Test Autograding Outputs
         run: |
           echo "${{ needs.build.outputs.details }}"
-          echo "${{ needs.build.outputs.result }}"
+          echo "here ${{ needs.build.outputs.result }}"
           
       - run: |
           mkdir autograding_logs
