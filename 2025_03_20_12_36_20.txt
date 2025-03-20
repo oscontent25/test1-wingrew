@@ -1,0 +1,56 @@
+❌ glibc busybox echo #### independent command test points 0/1
+❌ glibc busybox ash -c exit points 0/1
+❌ glibc busybox sh -c exit points 0/1
+❌ glibc busybox basename /aaa/bbb points 0/1
+❌ glibc busybox cal points 0/1
+❌ glibc busybox clear points 0/1
+❌ glibc busybox date points 0/1
+❌ glibc busybox df points 0/1
+❌ glibc busybox dirname /aaa/bbb points 0/1
+❌ glibc busybox dmesg points 0/1
+❌ glibc busybox du points 0/1
+❌ glibc busybox expr 1 + 1 points 0/1
+❌ glibc busybox false points 0/1
+❌ glibc busybox true points 0/1
+❌ glibc busybox which ls points 0/1
+❌ glibc busybox uname points 0/1
+❌ glibc busybox uptime points 0/1
+❌ glibc busybox printf abcn points 0/1
+❌ glibc busybox ps points 0/1
+❌ glibc busybox pwd points 0/1
+❌ glibc busybox free points 0/1
+❌ glibc busybox hwclock points 0/1
+❌ glibc busybox kill 10 points 0/1
+❌ glibc busybox ls points 0/1
+❌ glibc busybox sleep 1 points 0/1
+❌ glibc busybox echo #### file opration test points 0/1
+❌ glibc busybox touch test.txt points 0/1
+❌ glibc busybox echo hello world > test.txt points 0/1
+❌ glibc busybox cat test.txt points 0/1
+❌ glibc busybox cut -c 3 test.txt points 0/1
+❌ glibc busybox od test.txt points 0/1
+❌ glibc busybox head test.txt points 0/1
+❌ glibc busybox tail test.txt points 0/1
+❌ glibc busybox hexdump -C test.txt points 0/1
+❌ glibc busybox md5sum test.txt points 0/1
+❌ glibc busybox echo ccccccc >> test.txt points 0/1
+❌ glibc busybox echo bbbbbbb >> test.txt points 0/1
+❌ glibc busybox echo aaaaaaa >> test.txt points 0/1
+❌ glibc busybox echo 2222222 >> test.txt points 0/1
+❌ glibc busybox echo 1111111 >> test.txt points 0/1
+❌ glibc busybox sort test.txt | busybox uniq points 0/1
+❌ glibc busybox stat test.txt points 0/1
+❌ glibc busybox strings test.txt points 0/1
+❌ glibc busybox wc test.txt points 0/1
+❌ glibc busybox [ -f test.txt ] points 0/1
+❌ glibc busybox more test.txt points 0/1
+❌ glibc busybox rm test.txt points 0/1
+❌ glibc busybox mkdir test_dir points 0/1
+❌ glibc busybox mv test_dir test points 0/1
+❌ glibc busybox rmdir test points 0/1
+❌ glibc busybox grep hello busybox_cmd.txt points 0/1
+❌ glibc busybox cp busybox_cmd.txt busybox_cmd.bak points 0/1
+❌ glibc busybox rm busybox_cmd.bak points 0/1
+❌ glibc busybox find -name busybox_cmd.txt points 0/1
+
+Points: 0/54
