@@ -66,6 +66,7 @@ jobs:
         id: autograding
         with:
           outputfile: riscv_output.txt
+          scriptPath: ./github/classroom/busybox-glibc
       - name: Autograding Reporter
         uses: classroom-resources/autograding-grading-reporter@v1
         env:
