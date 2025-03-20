@@ -26,8 +26,8 @@ jobs:
     env:
       qemu-version: 9.2.1
     outputs:
-      details: ${{ steps.autogradingriscv64.outputs.details }}
-      points: ${{ steps.autogradingriscv64.outputs.points }}
+      details: ${{ steps.autograding.outputs.details }}
+      points: ${{ steps.autograding.outputs.points }}
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
@@ -63,7 +63,7 @@ jobs:
         run: |
           git clone ${{ env.SCRIPT_REPO }} .github/classroom
       - uses: oscontent25/os-autograding@master
-        id: autogradingriscv64
+        id: autograding
         with:
           outputfile: riscv_output.txt
 
