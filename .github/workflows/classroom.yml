@@ -62,7 +62,7 @@ jobs:
       - name: Download EvaluationScript
         run: |
           git clone ${{ env.SCRIPT_REPO }} .github/classroom
-      - uses: yfblock/os-autograding@master
+      - uses: oscontent25/os-autograding@master
         id: autogradingriscv64
         with:
           outputfile: riscv_output.txt
@@ -76,6 +76,8 @@ jobs:
       - name: Test Autograding Outputs
         run: |
           echo "${{ needs.build.outputs.details }}"
+          echo "${{ needs.build.outputs.result }}"
+          
       - run: |
           mkdir autograding_logs
           cd autograding_logs
